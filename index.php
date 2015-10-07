@@ -3,14 +3,13 @@ session_start();
 
 /**
  * Si l'utilisateur se rend sur la page d'identification,
- * dÃ©jÃaa  identifiÃ©, il est redirigÃ© vers la page d'accueil
- */
+gggg */
 if ('identification' === $_GET['page']
     && isset($_SESSION['identifie']) && true === $_SESSION['identifie']) {
 
     header('Location: index.php');
 }
-
+/* ok daccord */
 require 'include/connexion.php';
 ?>
 <!DOCTYPE html>
