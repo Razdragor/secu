@@ -3,7 +3,7 @@ session_start();
 
 /**
  * Si l'utilisateur se rend sur la page d'identification,
- * déjà identifié, il est redirigé vers la page d'accueil
+ * déj�aa� identifié, il est redirigé vers la page d'accueil
  */
 if ('identification' === $_GET['page']
     && isset($_SESSION['identifie']) && true === $_SESSION['identifie']) {
