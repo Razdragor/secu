@@ -9,7 +9,7 @@ if ('identification' === $_GET['page']
 
     header('Location: index.php');
 }
-
+/* ok daccord */
 require 'include/connexion.php';
 ?>
 <!DOCTYPE html>
